@@ -1,0 +1,14 @@
+public class AlphabetPattern {
+
+	public static void main(String[] args) {
+			for(int i=108;i>=97;i--) {
+				for(int j=108;j>=i;j--) {
+					
+				System.out.print((char)i);
+			}
+			System.out.println();
+
+		}
+	}
+}
+
