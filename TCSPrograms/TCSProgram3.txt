@@ -11,7 +11,7 @@ public class TCSProgram3 {
 				if(n<0) {
     				System.out.println("Invalid Input");
     				System.exit(0);
-                  }
+                                }
 				else 
 				{
 				System.out.println("Enter the salaries of employees:");
@@ -34,10 +34,10 @@ public class TCSProgram3 {
 						{
 					     c++;
 						}
-			          }
+			                }
 					}
-	              }
+	                            }
 				System.out.println(c);
-	}
-}
+	                         }
+                           }
 
