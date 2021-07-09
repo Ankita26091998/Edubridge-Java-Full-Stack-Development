@@ -1,0 +1,24 @@
+import java.util.*;
+public class TCSProgram {
+public static void main(String args[]) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter your Salary:");
+	int salary=sc.nextInt();
+	System.out.println("Enter your no. of Shifts:");
+	int shifts=sc.nextInt();
+	int Saving=0;
+	if(salary>8000) {
+		System.out.println("Salary too large");
+	}
+	else if(shifts<0) {
+	    System.out.println("Shifts too small");
+	}
+	else if(salary<0) {
+		System.out.println("Salary too small");
+	}
+	else {
+		Saving=(int)((salary+0.02*salary*shifts)-(0.2*salary+0.3*salary));
+	}
+	System.out.println("Savings is:"+Saving);
+}
+}
